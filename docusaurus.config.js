@@ -48,6 +48,10 @@ const config = {
             copyright: `Copyright © ${new Date().getFullYear()} Suraj Srivastav`,
             language: 'en',
           },
+          blogSidebarTitle: 'Recent posts',
+          blogSidebarCount: 5,
+          blogTitle: 'Blog',
+          postsPerPage: 10,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
