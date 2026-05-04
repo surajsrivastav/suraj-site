@@ -1,0 +1,43 @@
+{
+  "name": "suraj-site",
+  "version": "1.0.0",
+  "description": "Suraj Srivastav - Engineering leader building scalable systems and AI platforms",
+  "main": "index.js",
+  "scripts": {
+    "docusaurus": "docusaurus",
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "docusaurus deploy",
+    "clear": "docusaurus clear",
+    "serve": "docusaurus serve",
+    "write-translations": "docusaurus write-translations",
+    "write-heading-ids": "docusaurus write-heading-ids"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/surajsrivastav/suraj-site.git"
+  },
+  "keywords": [
+    "engineering",
+    "leadership",
+    "systems",
+    "ai",
+    "distributed systems",
+    "backend architecture"
+  ],
+  "author": "Suraj Srivastav",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/surajsrivastav/suraj-site/issues"
+  },
+  "homepage": "https://surajsrivastav.com",
+  "dependencies": {
+    "@docusaurus/core": "^3.10.1",
+    "@docusaurus/plugin-sitemap": "^3.10.1",
+    "@docusaurus/preset-classic": "^3.10.1",
+    "clsx": "^2.1.1",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
+  }
+}
