@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksuraj_site=self.webpackChunksuraj_site||[]).push([[642],{1437(e){e.exports=JSON.parse('{"metadata":{"permalink":"/suraj-site/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":3,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
