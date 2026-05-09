@@ -8,16 +8,17 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://surajsrivastav.com',
+  url: 'https://surajsrivastav.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/suraj-site/',
 
   // GitHub pages deployment config.
   organizationName: 'surajsrivastav',
   projectName: 'suraj-site',
   deploymentBranch: 'gh-pages',
 
+  trailingSlash: true,
   onBrokenLinks: 'throw',
 
   markdown: {
