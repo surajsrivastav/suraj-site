@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Suraj Srivastav Blog</title>
-        <link>https://surajsrivastav.com/blog</link>
+        <link>https://surajsrivastav.github.io/suraj-site/blog/</link>
         <description>Suraj Srivastav Blog</description>
         <lastBuildDate>Fri, 01 May 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -11,12 +11,12 @@
         <copyright>Copyright © 2026 Suraj Srivastav</copyright>
         <item>
             <title><![CDATA[Designing Scalable Backend Systems]]></title>
-            <link>https://surajsrivastav.com/blog/designing-scalable-backend-systems</link>
-            <guid>https://surajsrivastav.com/blog/designing-scalable-backend-systems</guid>
+            <link>https://surajsrivastav.github.io/suraj-site/blog/designing-scalable-backend-systems/</link>
+            <guid>https://surajsrivastav.github.io/suraj-site/blog/designing-scalable-backend-systems/</guid>
             <pubDate>Fri, 01 May 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[Building backend systems that scale requires more than just throwing more servers at a problem. It requires thoughtful architecture, clear abstractions, and a deep understanding of your constraints.]]></description>
             <content:encoded><![CDATA[<p>Building backend systems that scale requires more than just throwing more servers at a problem. It requires thoughtful architecture, clear abstractions, and a deep understanding of your constraints.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-foundation-understanding-your-constraints">The Foundation: Understanding Your Constraints<a href="https://surajsrivastav.com/blog/designing-scalable-backend-systems#the-foundation-understanding-your-constraints" class="hash-link" aria-label="Direct link to The Foundation: Understanding Your Constraints" title="Direct link to The Foundation: Understanding Your Constraints" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-foundation-understanding-your-constraints">The Foundation: Understanding Your Constraints<a href="https://surajsrivastav.github.io/suraj-site/blog/designing-scalable-backend-systems/#the-foundation-understanding-your-constraints" class="hash-link" aria-label="Direct link to The Foundation: Understanding Your Constraints" title="Direct link to The Foundation: Understanding Your Constraints" translate="no">​</a></h2>
 <p>Before you start designing anything, understand your constraints:</p>
 <ul>
 <li class=""><strong>Traffic patterns</strong>: Are you handling constant load or spiky traffic?</li>
@@ -26,8 +26,8 @@
 <li class=""><strong>Team size</strong>: How many engineers will maintain this system?</li>
 </ul>
 <p>These constraints determine everything about your architecture.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="key-principles-for-scalability">Key Principles for Scalability<a href="https://surajsrivastav.com/blog/designing-scalable-backend-systems#key-principles-for-scalability" class="hash-link" aria-label="Direct link to Key Principles for Scalability" title="Direct link to Key Principles for Scalability" translate="no">​</a></h2>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-stateless-design">1. Stateless Design<a href="https://surajsrivastav.com/blog/designing-scalable-backend-systems#1-stateless-design" class="hash-link" aria-label="Direct link to 1. Stateless Design" title="Direct link to 1. Stateless Design" translate="no">​</a></h3>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="key-principles-for-scalability">Key Principles for Scalability<a href="https://surajsrivastav.github.io/suraj-site/blog/designing-scalable-backend-systems/#key-principles-for-scalability" class="hash-link" aria-label="Direct link to Key Principles for Scalability" title="Direct link to Key Principles for Scalability" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-stateless-design">1. Stateless Design<a href="https://surajsrivastav.github.io/suraj-site/blog/designing-scalable-backend-systems/#1-stateless-design" class="hash-link" aria-label="Direct link to 1. Stateless Design" title="Direct link to 1. Stateless Design" translate="no">​</a></h3>
 <p>Keep your application servers stateless. This allows you to:</p>
 <ul>
 <li class="">Scale horizontally by adding more servers</li>
@@ -35,7 +35,7 @@
 <li class="">Handle server failures gracefully</li>
 </ul>
 <p>State should live in dedicated systems (databases, caches) designed for that purpose.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-separation-of-concerns">2. Separation of Concerns<a href="https://surajsrivastav.com/blog/designing-scalable-backend-systems#2-separation-of-concerns" class="hash-link" aria-label="Direct link to 2. Separation of Concerns" title="Direct link to 2. Separation of Concerns" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-separation-of-concerns">2. Separation of Concerns<a href="https://surajsrivastav.github.io/suraj-site/blog/designing-scalable-backend-systems/#2-separation-of-concerns" class="hash-link" aria-label="Direct link to 2. Separation of Concerns" title="Direct link to 2. Separation of Concerns" translate="no">​</a></h3>
 <p>Different components have different scaling characteristics:</p>
 <ul>
 <li class=""><strong>Compute</strong>: Scales with the number of concurrent requests</li>
@@ -44,14 +44,14 @@
 <li class=""><strong>Message queue</strong>: Scales with throughput</li>
 </ul>
 <p>Separate these concerns so you can scale each independently.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-caching-strategy">3. Caching Strategy<a href="https://surajsrivastav.com/blog/designing-scalable-backend-systems#3-caching-strategy" class="hash-link" aria-label="Direct link to 3. Caching Strategy" title="Direct link to 3. Caching Strategy" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-caching-strategy">3. Caching Strategy<a href="https://surajsrivastav.github.io/suraj-site/blog/designing-scalable-backend-systems/#3-caching-strategy" class="hash-link" aria-label="Direct link to 3. Caching Strategy" title="Direct link to 3. Caching Strategy" translate="no">​</a></h3>
 <p>Caching is your best friend for scalability. But it's also a common source of complexity.</p>
 <ul>
 <li class=""><strong>Cache invalidation</strong>: Invalidate strategically. Don't cache everything.</li>
 <li class=""><strong>Cache warming</strong>: Preload hot data to avoid cache misses on startup.</li>
 <li class=""><strong>Cache levels</strong>: Use multiple levels (app, redis, database).</li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="4-database-design">4. Database Design<a href="https://surajsrivastav.com/blog/designing-scalable-backend-systems#4-database-design" class="hash-link" aria-label="Direct link to 4. Database Design" title="Direct link to 4. Database Design" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="4-database-design">4. Database Design<a href="https://surajsrivastav.github.io/suraj-site/blog/designing-scalable-backend-systems/#4-database-design" class="hash-link" aria-label="Direct link to 4. Database Design" title="Direct link to 4. Database Design" translate="no">​</a></h3>
 <p>Most performance problems are database problems.</p>
 <ul>
 <li class=""><strong>Indexing</strong>: Index your most common queries. Don't index everything.</li>
@@ -59,14 +59,14 @@
 <li class=""><strong>Sharding</strong>: When single-instance doesn't work, shard strategically.</li>
 <li class=""><strong>Read replicas</strong>: Use for read-heavy workloads.</li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="5-asynchronous-processing">5. Asynchronous Processing<a href="https://surajsrivastav.com/blog/designing-scalable-backend-systems#5-asynchronous-processing" class="hash-link" aria-label="Direct link to 5. Asynchronous Processing" title="Direct link to 5. Asynchronous Processing" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="5-asynchronous-processing">5. Asynchronous Processing<a href="https://surajsrivastav.github.io/suraj-site/blog/designing-scalable-backend-systems/#5-asynchronous-processing" class="hash-link" aria-label="Direct link to 5. Asynchronous Processing" title="Direct link to 5. Asynchronous Processing" translate="no">​</a></h3>
 <p>Push slow work off the critical path:</p>
 <ul>
 <li class="">Use message queues for async tasks</li>
 <li class="">Process in workers, not in request handlers</li>
 <li class="">Return results asynchronously when appropriate</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="real-world-example-e-commerce-platform">Real-World Example: E-commerce Platform<a href="https://surajsrivastav.com/blog/designing-scalable-backend-systems#real-world-example-e-commerce-platform" class="hash-link" aria-label="Direct link to Real-World Example: E-commerce Platform" title="Direct link to Real-World Example: E-commerce Platform" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="real-world-example-e-commerce-platform">Real-World Example: E-commerce Platform<a href="https://surajsrivastav.github.io/suraj-site/blog/designing-scalable-backend-systems/#real-world-example-e-commerce-platform" class="hash-link" aria-label="Direct link to Real-World Example: E-commerce Platform" title="Direct link to Real-World Example: E-commerce Platform" translate="no">​</a></h2>
 <p>Consider an e-commerce platform handling millions of users:</p>
 <p><strong>The Problem</strong>: Product catalog requests are slow during peak traffic.</p>
 <p><strong>The Solution</strong>:</p>
@@ -78,7 +78,7 @@
 <li class="">Queue inventory updates asynchronously</li>
 </ol>
 <p><strong>Result</strong>: Response times drop from 200ms to 10ms.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="monitoring-and-observability">Monitoring and Observability<a href="https://surajsrivastav.com/blog/designing-scalable-backend-systems#monitoring-and-observability" class="hash-link" aria-label="Direct link to Monitoring and Observability" title="Direct link to Monitoring and Observability" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="monitoring-and-observability">Monitoring and Observability<a href="https://surajsrivastav.github.io/suraj-site/blog/designing-scalable-backend-systems/#monitoring-and-observability" class="hash-link" aria-label="Direct link to Monitoring and Observability" title="Direct link to Monitoring and Observability" translate="no">​</a></h2>
 <p>You can't optimize what you can't measure. Instrument everything:</p>
 <ul>
 <li class=""><strong>Request latency</strong>: Track p50, p95, p99</li>
@@ -87,7 +87,7 @@
 <li class=""><strong>Error rates</strong>: Track errors by type</li>
 </ul>
 <p>Use these metrics to identify bottlenecks.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="conclusion">Conclusion<a href="https://surajsrivastav.com/blog/designing-scalable-backend-systems#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="conclusion">Conclusion<a href="https://surajsrivastav.github.io/suraj-site/blog/designing-scalable-backend-systems/#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion" translate="no">​</a></h2>
 <p>Scalability is not a feature you add at the end. It's a consequence of good design decisions made from the start. Focus on:</p>
 <ul>
 <li class="">Understanding your constraints</li>
@@ -101,12 +101,12 @@
         </item>
         <item>
             <title><![CDATA[AI Agents in Production Workflows]]></title>
-            <link>https://surajsrivastav.com/blog/ai-agents-production-workflows</link>
-            <guid>https://surajsrivastav.com/blog/ai-agents-production-workflows</guid>
+            <link>https://surajsrivastav.github.io/suraj-site/blog/ai-agents-production-workflows/</link>
+            <guid>https://surajsrivastav.github.io/suraj-site/blog/ai-agents-production-workflows/</guid>
             <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[AI agents are moving from research labs to production systems. But deploying agents at scale is fundamentally different from deploying traditional applications. Let me share what we've learned.]]></description>
             <content:encoded><![CDATA[<p>AI agents are moving from research labs to production systems. But deploying agents at scale is fundamentally different from deploying traditional applications. Let me share what we've learned.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-are-ai-agents">What Are AI Agents?<a href="https://surajsrivastav.com/blog/ai-agents-production-workflows#what-are-ai-agents" class="hash-link" aria-label="Direct link to What Are AI Agents?" title="Direct link to What Are AI Agents?" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-are-ai-agents">What Are AI Agents?<a href="https://surajsrivastav.github.io/suraj-site/blog/ai-agents-production-workflows/#what-are-ai-agents" class="hash-link" aria-label="Direct link to What Are AI Agents?" title="Direct link to What Are AI Agents?" translate="no">​</a></h2>
 <p>An AI agent is a system that can:</p>
 <ul>
 <li class="">Perceive its environment</li>
@@ -121,9 +121,9 @@
 <li class="">Recover from failures</li>
 <li class="">Improve through feedback</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-challenge-reliability-at-scale">The Challenge: Reliability at Scale<a href="https://surajsrivastav.com/blog/ai-agents-production-workflows#the-challenge-reliability-at-scale" class="hash-link" aria-label="Direct link to The Challenge: Reliability at Scale" title="Direct link to The Challenge: Reliability at Scale" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-challenge-reliability-at-scale">The Challenge: Reliability at Scale<a href="https://surajsrivastav.github.io/suraj-site/blog/ai-agents-production-workflows/#the-challenge-reliability-at-scale" class="hash-link" aria-label="Direct link to The Challenge: Reliability at Scale" title="Direct link to The Challenge: Reliability at Scale" translate="no">​</a></h2>
 <p>Agents introduce new reliability challenges:</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-non-determinism">1. Non-Determinism<a href="https://surajsrivastav.com/blog/ai-agents-production-workflows#1-non-determinism" class="hash-link" aria-label="Direct link to 1. Non-Determinism" title="Direct link to 1. Non-Determinism" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-non-determinism">1. Non-Determinism<a href="https://surajsrivastav.github.io/suraj-site/blog/ai-agents-production-workflows/#1-non-determinism" class="hash-link" aria-label="Direct link to 1. Non-Determinism" title="Direct link to 1. Non-Determinism" translate="no">​</a></h3>
 <p>Traditional code is deterministic. Feed the same input, get the same output. Agents are not.</p>
 <p><strong>Solution</strong>: Design for variability</p>
 <ul>
@@ -132,7 +132,7 @@
 <li class="">Use deterministic fallbacks when agents fail</li>
 <li class="">Monitor agent decisions for anomalies</li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-hallucinations">2. Hallucinations<a href="https://surajsrivastav.com/blog/ai-agents-production-workflows#2-hallucinations" class="hash-link" aria-label="Direct link to 2. Hallucinations" title="Direct link to 2. Hallucinations" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-hallucinations">2. Hallucinations<a href="https://surajsrivastav.github.io/suraj-site/blog/ai-agents-production-workflows/#2-hallucinations" class="hash-link" aria-label="Direct link to 2. Hallucinations" title="Direct link to 2. Hallucinations" translate="no">​</a></h3>
 <p>LLMs can confidently generate incorrect information.</p>
 <p><strong>Solution</strong>: Grounding and verification</p>
 <ul>
@@ -141,7 +141,7 @@
 <li class="">Use agent feedback to improve prompts</li>
 <li class="">Log decision chains for auditing</li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-cost-control">3. Cost Control<a href="https://surajsrivastav.com/blog/ai-agents-production-workflows#3-cost-control" class="hash-link" aria-label="Direct link to 3. Cost Control" title="Direct link to 3. Cost Control" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-cost-control">3. Cost Control<a href="https://surajsrivastav.github.io/suraj-site/blog/ai-agents-production-workflows/#3-cost-control" class="hash-link" aria-label="Direct link to 3. Cost Control" title="Direct link to 3. Cost Control" translate="no">​</a></h3>
 <p>Running agents at scale gets expensive fast.</p>
 <p><strong>Solution</strong>: Efficient agent design</p>
 <ul>
@@ -150,16 +150,16 @@
 <li class="">Batch similar requests</li>
 <li class="">Monitor token usage and costs</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="architecture-pattern-the-control-loop">Architecture Pattern: The Control Loop<a href="https://surajsrivastav.com/blog/ai-agents-production-workflows#architecture-pattern-the-control-loop" class="hash-link" aria-label="Direct link to Architecture Pattern: The Control Loop" title="Direct link to Architecture Pattern: The Control Loop" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="architecture-pattern-the-control-loop">Architecture Pattern: The Control Loop<a href="https://surajsrivastav.github.io/suraj-site/blog/ai-agents-production-workflows/#architecture-pattern-the-control-loop" class="hash-link" aria-label="Direct link to Architecture Pattern: The Control Loop" title="Direct link to Architecture Pattern: The Control Loop" translate="no">​</a></h2>
 <p>Here's a pattern that works well in production:</p>
 <div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-background-color:hsl(220, 13%, 18%);--prism-color:hsl(220, 14%, 71%)"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="background-color:hsl(220, 13%, 18%);color:hsl(220, 14%, 71%);text-shadow:0 1px rgba(0, 0, 0, 0.3)"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:hsl(220, 14%, 71%);text-shadow:0 1px rgba(0, 0, 0, 0.3)"><span class="token plain">[User Request]</span><br></div><div class="token-line" style="color:hsl(220, 14%, 71%);text-shadow:0 1px rgba(0, 0, 0, 0.3)"><span class="token plain">    ↓</span><br></div><div class="token-line" style="color:hsl(220, 14%, 71%);text-shadow:0 1px rgba(0, 0, 0, 0.3)"><span class="token plain">[Agent Planner] → [Tool Calls] → [Tool Execution]</span><br></div><div class="token-line" style="color:hsl(220, 14%, 71%);text-shadow:0 1px rgba(0, 0, 0, 0.3)"><span class="token plain">    ↓                               ↓</span><br></div><div class="token-line" style="color:hsl(220, 14%, 71%);text-shadow:0 1px rgba(0, 0, 0, 0.3)"><span class="token plain">    ←────────── [Reflection] ←─────</span><br></div><div class="token-line" style="color:hsl(220, 14%, 71%);text-shadow:0 1px rgba(0, 0, 0, 0.3)"><span class="token plain">    ↓</span><br></div><div class="token-line" style="color:hsl(220, 14%, 71%);text-shadow:0 1px rgba(0, 0, 0, 0.3)"><span class="token plain">[Verification] → Pass? → [Action]</span><br></div><div class="token-line" style="color:hsl(220, 14%, 71%);text-shadow:0 1px rgba(0, 0, 0, 0.3)"><span class="token plain">    ↓</span><br></div><div class="token-line" style="color:hsl(220, 14%, 71%);text-shadow:0 1px rgba(0, 0, 0, 0.3)"><span class="token plain">   Fail? → [Recovery Strategy]</span><br></div></code></pre></div></div>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="key-components">Key Components:<a href="https://surajsrivastav.com/blog/ai-agents-production-workflows#key-components" class="hash-link" aria-label="Direct link to Key Components:" title="Direct link to Key Components:" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="key-components">Key Components:<a href="https://surajsrivastav.github.io/suraj-site/blog/ai-agents-production-workflows/#key-components" class="hash-link" aria-label="Direct link to Key Components:" title="Direct link to Key Components:" translate="no">​</a></h3>
 <p><strong>Planner</strong>: The agent plans what to do. Be explicit about constraints.</p>
 <p><strong>Tools</strong>: Agents execute via tools. Make tools atomic and well-defined.</p>
 <p><strong>Reflection</strong>: After execution, agents reflect on results. This improves decisions.</p>
 <p><strong>Verification</strong>: Always verify critical decisions. Don't blindly trust agent output.</p>
 <p><strong>Recovery</strong>: When things fail, have explicit recovery strategies.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="real-example-customer-support-agent">Real Example: Customer Support Agent<a href="https://surajsrivastav.com/blog/ai-agents-production-workflows#real-example-customer-support-agent" class="hash-link" aria-label="Direct link to Real Example: Customer Support Agent" title="Direct link to Real Example: Customer Support Agent" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="real-example-customer-support-agent">Real Example: Customer Support Agent<a href="https://surajsrivastav.github.io/suraj-site/blog/ai-agents-production-workflows/#real-example-customer-support-agent" class="hash-link" aria-label="Direct link to Real Example: Customer Support Agent" title="Direct link to Real Example: Customer Support Agent" translate="no">​</a></h2>
 <p>We built an agent to handle customer support tickets:</p>
 <p><strong>What it does</strong>:</p>
 <ul>
@@ -184,17 +184,17 @@
 <li class="">Customer satisfaction: 4.2/5</li>
 <li class="">Human time freed for complex issues</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="implementation-patterns">Implementation Patterns<a href="https://surajsrivastav.com/blog/ai-agents-production-workflows#implementation-patterns" class="hash-link" aria-label="Direct link to Implementation Patterns" title="Direct link to Implementation Patterns" translate="no">​</a></h2>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="pattern-1-tool-based-agents">Pattern 1: Tool-Based Agents<a href="https://surajsrivastav.com/blog/ai-agents-production-workflows#pattern-1-tool-based-agents" class="hash-link" aria-label="Direct link to Pattern 1: Tool-Based Agents" title="Direct link to Pattern 1: Tool-Based Agents" translate="no">​</a></h3>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="implementation-patterns">Implementation Patterns<a href="https://surajsrivastav.github.io/suraj-site/blog/ai-agents-production-workflows/#implementation-patterns" class="hash-link" aria-label="Direct link to Implementation Patterns" title="Direct link to Implementation Patterns" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="pattern-1-tool-based-agents">Pattern 1: Tool-Based Agents<a href="https://surajsrivastav.github.io/suraj-site/blog/ai-agents-production-workflows/#pattern-1-tool-based-agents" class="hash-link" aria-label="Direct link to Pattern 1: Tool-Based Agents" title="Direct link to Pattern 1: Tool-Based Agents" translate="no">​</a></h3>
 <p>Agents call tools (functions, APIs) to accomplish tasks.</p>
 <div class="language-python codeBlockContainer_Ckt0 theme-code-block" style="--prism-background-color:hsl(220, 13%, 18%);--prism-color:hsl(220, 14%, 71%)"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-python codeBlock_bY9V thin-scrollbar" style="background-color:hsl(220, 13%, 18%);color:hsl(220, 14%, 71%);text-shadow:0 1px rgba(0, 0, 0, 0.3)"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:hsl(220, 14%, 71%);text-shadow:0 1px rgba(0, 0, 0, 0.3)"><span class="token comment" style="color:hsl(220, 10%, 40%)"># Tools the agent can call</span><span class="token plain"></span><br></div><div class="token-line" style="color:hsl(220, 14%, 71%);text-shadow:0 1px rgba(0, 0, 0, 0.3)"><span class="token plain">tools </span><span class="token operator" style="color:hsl(207, 82%, 66%)">=</span><span class="token plain"> </span><span class="token punctuation" style="color:hsl(220, 14%, 71%)">[</span><span class="token plain"></span><br></div><div class="token-line" style="color:hsl(220, 14%, 71%);text-shadow:0 1px rgba(0, 0, 0, 0.3)"><span class="token plain">    lookup_customer</span><span class="token punctuation" style="color:hsl(220, 14%, 71%)">,</span><span class="token plain"></span><br></div><div class="token-line" style="color:hsl(220, 14%, 71%);text-shadow:0 1px rgba(0, 0, 0, 0.3)"><span class="token plain">    query_database</span><span class="token punctuation" style="color:hsl(220, 14%, 71%)">,</span><span class="token plain"></span><br></div><div class="token-line" style="color:hsl(220, 14%, 71%);text-shadow:0 1px rgba(0, 0, 0, 0.3)"><span class="token plain">    send_email</span><span class="token punctuation" style="color:hsl(220, 14%, 71%)">,</span><span class="token plain"></span><br></div><div class="token-line" style="color:hsl(220, 14%, 71%);text-shadow:0 1px rgba(0, 0, 0, 0.3)"><span class="token plain">    escalate_to_human</span><br></div><div class="token-line" style="color:hsl(220, 14%, 71%);text-shadow:0 1px rgba(0, 0, 0, 0.3)"><span class="token plain"></span><span class="token punctuation" style="color:hsl(220, 14%, 71%)">]</span><span class="token plain"></span><br></div><div class="token-line" style="color:hsl(220, 14%, 71%);text-shadow:0 1px rgba(0, 0, 0, 0.3)"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:hsl(220, 14%, 71%);text-shadow:0 1px rgba(0, 0, 0, 0.3)"><span class="token plain"></span><span class="token comment" style="color:hsl(220, 10%, 40%)"># Agent decides which tools to use</span><span class="token plain"></span><br></div><div class="token-line" style="color:hsl(220, 14%, 71%);text-shadow:0 1px rgba(0, 0, 0, 0.3)"><span class="token plain">agent </span><span class="token operator" style="color:hsl(207, 82%, 66%)">=</span><span class="token plain"> create_agent</span><span class="token punctuation" style="color:hsl(220, 14%, 71%)">(</span><span class="token plain">tools</span><span class="token operator" style="color:hsl(207, 82%, 66%)">=</span><span class="token plain">tools</span><span class="token punctuation" style="color:hsl(220, 14%, 71%)">,</span><span class="token plain"> constraints</span><span class="token operator" style="color:hsl(207, 82%, 66%)">=</span><span class="token punctuation" style="color:hsl(220, 14%, 71%)">[</span><span class="token plain"></span><br></div><div class="token-line" style="color:hsl(220, 14%, 71%);text-shadow:0 1px rgba(0, 0, 0, 0.3)"><span class="token plain">    </span><span class="token string" style="color:hsl(95, 38%, 62%)">"Do not handle payments"</span><span class="token punctuation" style="color:hsl(220, 14%, 71%)">,</span><span class="token plain"></span><br></div><div class="token-line" style="color:hsl(220, 14%, 71%);text-shadow:0 1px rgba(0, 0, 0, 0.3)"><span class="token plain">    </span><span class="token string" style="color:hsl(95, 38%, 62%)">"Always escalate legal issues"</span><span class="token punctuation" style="color:hsl(220, 14%, 71%)">,</span><span class="token plain"></span><br></div><div class="token-line" style="color:hsl(220, 14%, 71%);text-shadow:0 1px rgba(0, 0, 0, 0.3)"><span class="token plain">    </span><span class="token string" style="color:hsl(95, 38%, 62%)">"Verify before sending emails"</span><span class="token plain"></span><br></div><div class="token-line" style="color:hsl(220, 14%, 71%);text-shadow:0 1px rgba(0, 0, 0, 0.3)"><span class="token plain"></span><span class="token punctuation" style="color:hsl(220, 14%, 71%)">]</span><span class="token punctuation" style="color:hsl(220, 14%, 71%)">)</span><br></div></code></pre></div></div>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="pattern-2-workflow-agents">Pattern 2: Workflow Agents<a href="https://surajsrivastav.com/blog/ai-agents-production-workflows#pattern-2-workflow-agents" class="hash-link" aria-label="Direct link to Pattern 2: Workflow Agents" title="Direct link to Pattern 2: Workflow Agents" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="pattern-2-workflow-agents">Pattern 2: Workflow Agents<a href="https://surajsrivastav.github.io/suraj-site/blog/ai-agents-production-workflows/#pattern-2-workflow-agents" class="hash-link" aria-label="Direct link to Pattern 2: Workflow Agents" title="Direct link to Pattern 2: Workflow Agents" translate="no">​</a></h3>
 <p>Agents orchestrate workflows where order matters.</p>
 <div class="language-python codeBlockContainer_Ckt0 theme-code-block" style="--prism-background-color:hsl(220, 13%, 18%);--prism-color:hsl(220, 14%, 71%)"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-python codeBlock_bY9V thin-scrollbar" style="background-color:hsl(220, 13%, 18%);color:hsl(220, 14%, 71%);text-shadow:0 1px rgba(0, 0, 0, 0.3)"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:hsl(220, 14%, 71%);text-shadow:0 1px rgba(0, 0, 0, 0.3)"><span class="token plain">workflow </span><span class="token operator" style="color:hsl(207, 82%, 66%)">=</span><span class="token plain"> </span><span class="token punctuation" style="color:hsl(220, 14%, 71%)">[</span><span class="token plain"></span><br></div><div class="token-line" style="color:hsl(220, 14%, 71%);text-shadow:0 1px rgba(0, 0, 0, 0.3)"><span class="token plain">    </span><span class="token punctuation" style="color:hsl(220, 14%, 71%)">{</span><span class="token string" style="color:hsl(95, 38%, 62%)">"step"</span><span class="token punctuation" style="color:hsl(220, 14%, 71%)">:</span><span class="token plain"> </span><span class="token string" style="color:hsl(95, 38%, 62%)">"validate_input"</span><span class="token punctuation" style="color:hsl(220, 14%, 71%)">,</span><span class="token plain"> </span><span class="token string" style="color:hsl(95, 38%, 62%)">"agent"</span><span class="token punctuation" style="color:hsl(220, 14%, 71%)">:</span><span class="token plain"> input_validator</span><span class="token punctuation" style="color:hsl(220, 14%, 71%)">}</span><span class="token punctuation" style="color:hsl(220, 14%, 71%)">,</span><span class="token plain"></span><br></div><div class="token-line" style="color:hsl(220, 14%, 71%);text-shadow:0 1px rgba(0, 0, 0, 0.3)"><span class="token plain">    </span><span class="token punctuation" style="color:hsl(220, 14%, 71%)">{</span><span class="token string" style="color:hsl(95, 38%, 62%)">"step"</span><span class="token punctuation" style="color:hsl(220, 14%, 71%)">:</span><span class="token plain"> </span><span class="token string" style="color:hsl(95, 38%, 62%)">"process_request"</span><span class="token punctuation" style="color:hsl(220, 14%, 71%)">,</span><span class="token plain"> </span><span class="token string" style="color:hsl(95, 38%, 62%)">"agent"</span><span class="token punctuation" style="color:hsl(220, 14%, 71%)">:</span><span class="token plain"> processor</span><span class="token punctuation" style="color:hsl(220, 14%, 71%)">}</span><span class="token punctuation" style="color:hsl(220, 14%, 71%)">,</span><span class="token plain"></span><br></div><div class="token-line" style="color:hsl(220, 14%, 71%);text-shadow:0 1px rgba(0, 0, 0, 0.3)"><span class="token plain">    </span><span class="token punctuation" style="color:hsl(220, 14%, 71%)">{</span><span class="token string" style="color:hsl(95, 38%, 62%)">"step"</span><span class="token punctuation" style="color:hsl(220, 14%, 71%)">:</span><span class="token plain"> </span><span class="token string" style="color:hsl(95, 38%, 62%)">"verify_output"</span><span class="token punctuation" style="color:hsl(220, 14%, 71%)">,</span><span class="token plain"> </span><span class="token string" style="color:hsl(95, 38%, 62%)">"agent"</span><span class="token punctuation" style="color:hsl(220, 14%, 71%)">:</span><span class="token plain"> verifier</span><span class="token punctuation" style="color:hsl(220, 14%, 71%)">}</span><span class="token punctuation" style="color:hsl(220, 14%, 71%)">,</span><span class="token plain"></span><br></div><div class="token-line" style="color:hsl(220, 14%, 71%);text-shadow:0 1px rgba(0, 0, 0, 0.3)"><span class="token plain">    </span><span class="token punctuation" style="color:hsl(220, 14%, 71%)">{</span><span class="token string" style="color:hsl(95, 38%, 62%)">"step"</span><span class="token punctuation" style="color:hsl(220, 14%, 71%)">:</span><span class="token plain"> </span><span class="token string" style="color:hsl(95, 38%, 62%)">"execute_action"</span><span class="token punctuation" style="color:hsl(220, 14%, 71%)">,</span><span class="token plain"> </span><span class="token string" style="color:hsl(95, 38%, 62%)">"agent"</span><span class="token punctuation" style="color:hsl(220, 14%, 71%)">:</span><span class="token plain"> executor</span><span class="token punctuation" style="color:hsl(220, 14%, 71%)">}</span><span class="token punctuation" style="color:hsl(220, 14%, 71%)">,</span><span class="token plain"></span><br></div><div class="token-line" style="color:hsl(220, 14%, 71%);text-shadow:0 1px rgba(0, 0, 0, 0.3)"><span class="token plain"></span><span class="token punctuation" style="color:hsl(220, 14%, 71%)">]</span><br></div></code></pre></div></div>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="pattern-3-hierarchical-agents">Pattern 3: Hierarchical Agents<a href="https://surajsrivastav.com/blog/ai-agents-production-workflows#pattern-3-hierarchical-agents" class="hash-link" aria-label="Direct link to Pattern 3: Hierarchical Agents" title="Direct link to Pattern 3: Hierarchical Agents" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="pattern-3-hierarchical-agents">Pattern 3: Hierarchical Agents<a href="https://surajsrivastav.github.io/suraj-site/blog/ai-agents-production-workflows/#pattern-3-hierarchical-agents" class="hash-link" aria-label="Direct link to Pattern 3: Hierarchical Agents" title="Direct link to Pattern 3: Hierarchical Agents" translate="no">​</a></h3>
 <p>One agent delegates to specialized agents.</p>
 <div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-background-color:hsl(220, 13%, 18%);--prism-color:hsl(220, 14%, 71%)"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="background-color:hsl(220, 13%, 18%);color:hsl(220, 14%, 71%);text-shadow:0 1px rgba(0, 0, 0, 0.3)"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:hsl(220, 14%, 71%);text-shadow:0 1px rgba(0, 0, 0, 0.3)"><span class="token plain">[Manager Agent]</span><br></div><div class="token-line" style="color:hsl(220, 14%, 71%);text-shadow:0 1px rgba(0, 0, 0, 0.3)"><span class="token plain">    ├─ [Analyst Agent] - analyzes data</span><br></div><div class="token-line" style="color:hsl(220, 14%, 71%);text-shadow:0 1px rgba(0, 0, 0, 0.3)"><span class="token plain">    ├─ [Writer Agent] - writes output</span><br></div><div class="token-line" style="color:hsl(220, 14%, 71%);text-shadow:0 1px rgba(0, 0, 0, 0.3)"><span class="token plain">    └─ [Reviewer Agent] - reviews quality</span><br></div></code></pre></div></div>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="monitoring-agents">Monitoring Agents<a href="https://surajsrivastav.com/blog/ai-agents-production-workflows#monitoring-agents" class="hash-link" aria-label="Direct link to Monitoring Agents" title="Direct link to Monitoring Agents" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="monitoring-agents">Monitoring Agents<a href="https://surajsrivastav.github.io/suraj-site/blog/ai-agents-production-workflows/#monitoring-agents" class="hash-link" aria-label="Direct link to Monitoring Agents" title="Direct link to Monitoring Agents" translate="no">​</a></h2>
 <p>You need different metrics for agents:</p>
 <ul>
 <li class=""><strong>Decision quality</strong>: Are agent decisions correct?</li>
@@ -204,7 +204,7 @@
 <li class=""><strong>Latency</strong>: How long does the agent take?</li>
 <li class=""><strong>Hallucination rate</strong>: How often does it generate false info?</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-future">The Future<a href="https://surajsrivastav.com/blog/ai-agents-production-workflows#the-future" class="hash-link" aria-label="Direct link to The Future" title="Direct link to The Future" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-future">The Future<a href="https://surajsrivastav.github.io/suraj-site/blog/ai-agents-production-workflows/#the-future" class="hash-link" aria-label="Direct link to The Future" title="Direct link to The Future" translate="no">​</a></h2>
 <p>Agents will become standard infrastructure for many workflows. But they require:</p>
 <ul>
 <li class="">Explicit error handling</li>
@@ -219,13 +219,13 @@
         </item>
         <item>
             <title><![CDATA[Engineering Leadership at Scale]]></title>
-            <link>https://surajsrivastav.com/blog/engineering-leadership-at-scale</link>
-            <guid>https://surajsrivastav.com/blog/engineering-leadership-at-scale</guid>
+            <link>https://surajsrivastav.github.io/suraj-site/blog/engineering-leadership-at-scale/</link>
+            <guid>https://surajsrivastav.github.io/suraj-site/blog/engineering-leadership-at-scale/</guid>
             <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[Scaling an engineering organization is different from building a small team. The skills that made you successful as an engineer or small team leader don't automatically work at scale.]]></description>
             <content:encoded><![CDATA[<p>Scaling an engineering organization is different from building a small team. The skills that made you successful as an engineer or small team leader don't automatically work at scale.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-three-inflection-points">The Three Inflection Points<a href="https://surajsrivastav.com/blog/engineering-leadership-at-scale#the-three-inflection-points" class="hash-link" aria-label="Direct link to The Three Inflection Points" title="Direct link to The Three Inflection Points" translate="no">​</a></h2>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="inflection-1-from-ic-to-manager-5-15-people">Inflection 1: From IC to Manager (5-15 people)<a href="https://surajsrivastav.com/blog/engineering-leadership-at-scale#inflection-1-from-ic-to-manager-5-15-people" class="hash-link" aria-label="Direct link to Inflection 1: From IC to Manager (5-15 people)" title="Direct link to Inflection 1: From IC to Manager (5-15 people)" translate="no">​</a></h3>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-three-inflection-points">The Three Inflection Points<a href="https://surajsrivastav.github.io/suraj-site/blog/engineering-leadership-at-scale/#the-three-inflection-points" class="hash-link" aria-label="Direct link to The Three Inflection Points" title="Direct link to The Three Inflection Points" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="inflection-1-from-ic-to-manager-5-15-people">Inflection 1: From IC to Manager (5-15 people)<a href="https://surajsrivastav.github.io/suraj-site/blog/engineering-leadership-at-scale/#inflection-1-from-ic-to-manager-5-15-people" class="hash-link" aria-label="Direct link to Inflection 1: From IC to Manager (5-15 people)" title="Direct link to Inflection 1: From IC to Manager (5-15 people)" translate="no">​</a></h3>
 <p><strong>Challenge</strong>: You can no longer code your way out of problems.</p>
 <p><strong>What changes</strong>:</p>
 <ul>
@@ -241,7 +241,7 @@
 <li class="">Give feedback early and often</li>
 <li class="">Don't try to still be an individual contributor</li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="inflection-2-from-manager-to-manager-of-managers-30-50-people">Inflection 2: From Manager to Manager of Managers (30-50 people)<a href="https://surajsrivastav.com/blog/engineering-leadership-at-scale#inflection-2-from-manager-to-manager-of-managers-30-50-people" class="hash-link" aria-label="Direct link to Inflection 2: From Manager to Manager of Managers (30-50 people)" title="Direct link to Inflection 2: From Manager to Manager of Managers (30-50 people)" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="inflection-2-from-manager-to-manager-of-managers-30-50-people">Inflection 2: From Manager to Manager of Managers (30-50 people)<a href="https://surajsrivastav.github.io/suraj-site/blog/engineering-leadership-at-scale/#inflection-2-from-manager-to-manager-of-managers-30-50-people" class="hash-link" aria-label="Direct link to Inflection 2: From Manager to Manager of Managers (30-50 people)" title="Direct link to Inflection 2: From Manager to Manager of Managers (30-50 people)" translate="no">​</a></h3>
 <p><strong>Challenge</strong>: You can't have 1-on-1s with everyone. Systems become critical.</p>
 <p><strong>What changes</strong>:</p>
 <ul>
@@ -257,7 +257,7 @@
 <li class="">Invest in manager development</li>
 <li class="">Be obsessive about hiring</li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="inflection-3-from-manager-of-managers-to-directorstaff-50-people">Inflection 3: From Manager of Managers to Director/Staff (50+ people)<a href="https://surajsrivastav.com/blog/engineering-leadership-at-scale#inflection-3-from-manager-of-managers-to-directorstaff-50-people" class="hash-link" aria-label="Direct link to Inflection 3: From Manager of Managers to Director/Staff (50+ people)" title="Direct link to Inflection 3: From Manager of Managers to Director/Staff (50+ people)" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="inflection-3-from-manager-of-managers-to-directorstaff-50-people">Inflection 3: From Manager of Managers to Director/Staff (50+ people)<a href="https://surajsrivastav.github.io/suraj-site/blog/engineering-leadership-at-scale/#inflection-3-from-manager-of-managers-to-directorstaff-50-people" class="hash-link" aria-label="Direct link to Inflection 3: From Manager of Managers to Director/Staff (50+ people)" title="Direct link to Inflection 3: From Manager of Managers to Director/Staff (50+ people)" translate="no">​</a></h3>
 <p><strong>Challenge</strong>: You're now playing a different game. Strategy matters more than tactics.</p>
 <p><strong>What changes</strong>:</p>
 <ul>
@@ -273,8 +273,8 @@
 <li class="">Document your thinking</li>
 <li class="">Delegate authority, not just work</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="core-principles-for-scaling-teams">Core Principles for Scaling Teams<a href="https://surajsrivastav.com/blog/engineering-leadership-at-scale#core-principles-for-scaling-teams" class="hash-link" aria-label="Direct link to Core Principles for Scaling Teams" title="Direct link to Core Principles for Scaling Teams" translate="no">​</a></h2>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-clarity-over-comfort">1. Clarity Over Comfort<a href="https://surajsrivastav.com/blog/engineering-leadership-at-scale#1-clarity-over-comfort" class="hash-link" aria-label="Direct link to 1. Clarity Over Comfort" title="Direct link to 1. Clarity Over Comfort" translate="no">​</a></h3>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="core-principles-for-scaling-teams">Core Principles for Scaling Teams<a href="https://surajsrivastav.github.io/suraj-site/blog/engineering-leadership-at-scale/#core-principles-for-scaling-teams" class="hash-link" aria-label="Direct link to Core Principles for Scaling Teams" title="Direct link to Core Principles for Scaling Teams" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-clarity-over-comfort">1. Clarity Over Comfort<a href="https://surajsrivastav.github.io/suraj-site/blog/engineering-leadership-at-scale/#1-clarity-over-comfort" class="hash-link" aria-label="Direct link to 1. Clarity Over Comfort" title="Direct link to 1. Clarity Over Comfort" translate="no">​</a></h3>
 <p>As teams grow, people need clarity on:</p>
 <ul>
 <li class="">What are we building?</li>
@@ -283,7 +283,7 @@
 <li class="">How will we measure success?</li>
 </ul>
 <p>This clarity needs to be documented and reinforced constantly.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-systems-over-heroics">2. Systems Over Heroics<a href="https://surajsrivastav.com/blog/engineering-leadership-at-scale#2-systems-over-heroics" class="hash-link" aria-label="Direct link to 2. Systems Over Heroics" title="Direct link to 2. Systems Over Heroics" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-systems-over-heroics">2. Systems Over Heroics<a href="https://surajsrivastav.github.io/suraj-site/blog/engineering-leadership-at-scale/#2-systems-over-heroics" class="hash-link" aria-label="Direct link to 2. Systems Over Heroics" title="Direct link to 2. Systems Over Heroics" translate="no">​</a></h3>
 <p>At small scale, heroics work. At large scale, they break:</p>
 <ul>
 <li class="">You can't have key-person dependencies</li>
@@ -292,7 +292,7 @@
 <li class="">You need asynchronous communication</li>
 </ul>
 <p>Build systems that work without heroes.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-trust-and-autonomy">3. Trust and Autonomy<a href="https://surajsrivastav.com/blog/engineering-leadership-at-scale#3-trust-and-autonomy" class="hash-link" aria-label="Direct link to 3. Trust and Autonomy" title="Direct link to 3. Trust and Autonomy" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-trust-and-autonomy">3. Trust and Autonomy<a href="https://surajsrivastav.github.io/suraj-site/blog/engineering-leadership-at-scale/#3-trust-and-autonomy" class="hash-link" aria-label="Direct link to 3. Trust and Autonomy" title="Direct link to 3. Trust and Autonomy" translate="no">​</a></h3>
 <p>Micromanaging doesn't scale. You need:</p>
 <ul>
 <li class="">Clear decision rights</li>
@@ -301,7 +301,7 @@
 <li class="">Freedom to fail (safely)</li>
 </ul>
 <p>People perform best when they have autonomy.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="4-async-communication">4. Async Communication<a href="https://surajsrivastav.com/blog/engineering-leadership-at-scale#4-async-communication" class="hash-link" aria-label="Direct link to 4. Async Communication" title="Direct link to 4. Async Communication" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="4-async-communication">4. Async Communication<a href="https://surajsrivastav.github.io/suraj-site/blog/engineering-leadership-at-scale/#4-async-communication" class="hash-link" aria-label="Direct link to 4. Async Communication" title="Direct link to 4. Async Communication" translate="no">​</a></h3>
 <p>With 50+ people, you can't have everyone in every meeting:</p>
 <ul>
 <li class="">Document decisions in writing</li>
@@ -310,7 +310,7 @@
 <li class="">Enforce "no meetings Wednesday" or similar</li>
 </ul>
 <p>Async is not the default at small scale. It must be intentional.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-org-design-problem">The Org Design Problem<a href="https://surajsrivastav.com/blog/engineering-leadership-at-scale#the-org-design-problem" class="hash-link" aria-label="Direct link to The Org Design Problem" title="Direct link to The Org Design Problem" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-org-design-problem">The Org Design Problem<a href="https://surajsrivastav.github.io/suraj-site/blog/engineering-leadership-at-scale/#the-org-design-problem" class="hash-link" aria-label="Direct link to The Org Design Problem" title="Direct link to The Org Design Problem" translate="no">​</a></h2>
 <p>How you organize directly impacts:</p>
 <ul>
 <li class="">Decision velocity</li>
@@ -318,7 +318,7 @@
 <li class="">Team morale</li>
 <li class="">Hiring and retention</li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bad-org-structure-patterns">Bad Org Structure Patterns<a href="https://surajsrivastav.com/blog/engineering-leadership-at-scale#bad-org-structure-patterns" class="hash-link" aria-label="Direct link to Bad Org Structure Patterns" title="Direct link to Bad Org Structure Patterns" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bad-org-structure-patterns">Bad Org Structure Patterns<a href="https://surajsrivastav.github.io/suraj-site/blog/engineering-leadership-at-scale/#bad-org-structure-patterns" class="hash-link" aria-label="Direct link to Bad Org Structure Patterns" title="Direct link to Bad Org Structure Patterns" translate="no">​</a></h3>
 <p><strong>Too many layers</strong>:</p>
 <ul>
 <li class="">Decision-making becomes slow</li>
@@ -337,7 +337,7 @@
 <li class="">Trust erodes</li>
 <li class="">Productivity plummets</li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="good-org-patterns">Good Org Patterns<a href="https://surajsrivastav.com/blog/engineering-leadership-at-scale#good-org-patterns" class="hash-link" aria-label="Direct link to Good Org Patterns" title="Direct link to Good Org Patterns" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="good-org-patterns">Good Org Patterns<a href="https://surajsrivastav.github.io/suraj-site/blog/engineering-leadership-at-scale/#good-org-patterns" class="hash-link" aria-label="Direct link to Good Org Patterns" title="Direct link to Good Org Patterns" translate="no">​</a></h3>
 <p><strong>Clear ownership</strong>:</p>
 <ul>
 <li class="">Each team owns a domain</li>
@@ -356,17 +356,17 @@
 <li class="">Regular sync points</li>
 <li class="">Shared OKRs</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="common-scaling-mistakes">Common Scaling Mistakes<a href="https://surajsrivastav.com/blog/engineering-leadership-at-scale#common-scaling-mistakes" class="hash-link" aria-label="Direct link to Common Scaling Mistakes" title="Direct link to Common Scaling Mistakes" translate="no">​</a></h2>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="mistake-1-premature-specialization">Mistake 1: Premature Specialization<a href="https://surajsrivastav.com/blog/engineering-leadership-at-scale#mistake-1-premature-specialization" class="hash-link" aria-label="Direct link to Mistake 1: Premature Specialization" title="Direct link to Mistake 1: Premature Specialization" translate="no">​</a></h3>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="common-scaling-mistakes">Common Scaling Mistakes<a href="https://surajsrivastav.github.io/suraj-site/blog/engineering-leadership-at-scale/#common-scaling-mistakes" class="hash-link" aria-label="Direct link to Common Scaling Mistakes" title="Direct link to Common Scaling Mistakes" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="mistake-1-premature-specialization">Mistake 1: Premature Specialization<a href="https://surajsrivastav.github.io/suraj-site/blog/engineering-leadership-at-scale/#mistake-1-premature-specialization" class="hash-link" aria-label="Direct link to Mistake 1: Premature Specialization" title="Direct link to Mistake 1: Premature Specialization" translate="no">​</a></h3>
 <p>Don't create specialized teams (DX team, ops team) until you need them. Generalists are better at small scale.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="mistake-2-process-without-purpose">Mistake 2: Process Without Purpose<a href="https://surajsrivastav.com/blog/engineering-leadership-at-scale#mistake-2-process-without-purpose" class="hash-link" aria-label="Direct link to Mistake 2: Process Without Purpose" title="Direct link to Mistake 2: Process Without Purpose" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="mistake-2-process-without-purpose">Mistake 2: Process Without Purpose<a href="https://surajsrivastav.github.io/suraj-site/blog/engineering-leadership-at-scale/#mistake-2-process-without-purpose" class="hash-link" aria-label="Direct link to Mistake 2: Process Without Purpose" title="Direct link to Mistake 2: Process Without Purpose" translate="no">​</a></h3>
 <p>Processes slow things down. Only add processes when:</p>
 <ul>
 <li class="">You've felt the pain multiple times</li>
 <li class="">The process solves a real problem</li>
 <li class="">Someone is accountable for the process</li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="mistake-3-hiring-too-fast">Mistake 3: Hiring Too Fast<a href="https://surajsrivastav.com/blog/engineering-leadership-at-scale#mistake-3-hiring-too-fast" class="hash-link" aria-label="Direct link to Mistake 3: Hiring Too Fast" title="Direct link to Mistake 3: Hiring Too Fast" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="mistake-3-hiring-too-fast">Mistake 3: Hiring Too Fast<a href="https://surajsrivastav.github.io/suraj-site/blog/engineering-leadership-at-scale/#mistake-3-hiring-too-fast" class="hash-link" aria-label="Direct link to Mistake 3: Hiring Too Fast" title="Direct link to Mistake 3: Hiring Too Fast" translate="no">​</a></h3>
 <p>If you hire 20 people in a quarter:</p>
 <ul>
 <li class="">Culture dilutes</li>
@@ -375,7 +375,7 @@
 <li class="">Quality suffers</li>
 </ul>
 <p>Hire at a sustainable pace. Plan 6-12 months ahead.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="mistake-4-ignoring-culture">Mistake 4: Ignoring Culture<a href="https://surajsrivastav.com/blog/engineering-leadership-at-scale#mistake-4-ignoring-culture" class="hash-link" aria-label="Direct link to Mistake 4: Ignoring Culture" title="Direct link to Mistake 4: Ignoring Culture" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="mistake-4-ignoring-culture">Mistake 4: Ignoring Culture<a href="https://surajsrivastav.github.io/suraj-site/blog/engineering-leadership-at-scale/#mistake-4-ignoring-culture" class="hash-link" aria-label="Direct link to Mistake 4: Ignoring Culture" title="Direct link to Mistake 4: Ignoring Culture" translate="no">​</a></h3>
 <p>Culture is how you get people to do the right thing when you're not in the room. At scale, culture is everything.</p>
 <p>Define your values early:</p>
 <ul>
@@ -384,8 +384,8 @@
 <li class="">How do we handle disagreement?</li>
 <li class="">What behavior do we reward?</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="concrete-practices-for-scale">Concrete Practices for Scale<a href="https://surajsrivastav.com/blog/engineering-leadership-at-scale#concrete-practices-for-scale" class="hash-link" aria-label="Direct link to Concrete Practices for Scale" title="Direct link to Concrete Practices for Scale" translate="no">​</a></h2>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-engineering-principles">1. Engineering Principles<a href="https://surajsrivastav.com/blog/engineering-leadership-at-scale#1-engineering-principles" class="hash-link" aria-label="Direct link to 1. Engineering Principles" title="Direct link to 1. Engineering Principles" translate="no">​</a></h3>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="concrete-practices-for-scale">Concrete Practices for Scale<a href="https://surajsrivastav.github.io/suraj-site/blog/engineering-leadership-at-scale/#concrete-practices-for-scale" class="hash-link" aria-label="Direct link to Concrete Practices for Scale" title="Direct link to Concrete Practices for Scale" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-engineering-principles">1. Engineering Principles<a href="https://surajsrivastav.github.io/suraj-site/blog/engineering-leadership-at-scale/#1-engineering-principles" class="hash-link" aria-label="Direct link to 1. Engineering Principles" title="Direct link to 1. Engineering Principles" translate="no">​</a></h3>
 <p>Document your engineering principles:</p>
 <ul>
 <li class="">Favor simplicity</li>
@@ -394,14 +394,14 @@
 <li class="">Optimize for team velocity</li>
 </ul>
 <p>Refer back to these constantly.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-decision-framework">2. Decision Framework<a href="https://surajsrivastav.com/blog/engineering-leadership-at-scale#2-decision-framework" class="hash-link" aria-label="Direct link to 2. Decision Framework" title="Direct link to 2. Decision Framework" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-decision-framework">2. Decision Framework<a href="https://surajsrivastav.github.io/suraj-site/blog/engineering-leadership-at-scale/#2-decision-framework" class="hash-link" aria-label="Direct link to 2. Decision Framework" title="Direct link to 2. Decision Framework" translate="no">​</a></h3>
 <p>Make a decision framework public:</p>
 <ul>
 <li class=""><strong>Type 1 decisions</strong>: Irreversible. Slow, deliberate process.</li>
 <li class=""><strong>Type 2 decisions</strong>: Reversible. Fast decision-making, can change course.</li>
 </ul>
 <p>Most decisions are Type 2. Go fast.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-career-framework">3. Career Framework<a href="https://surajsrivastav.com/blog/engineering-leadership-at-scale#3-career-framework" class="hash-link" aria-label="Direct link to 3. Career Framework" title="Direct link to 3. Career Framework" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-career-framework">3. Career Framework<a href="https://surajsrivastav.github.io/suraj-site/blog/engineering-leadership-at-scale/#3-career-framework" class="hash-link" aria-label="Direct link to 3. Career Framework" title="Direct link to 3. Career Framework" translate="no">​</a></h3>
 <p>Make career progression explicit:</p>
 <ul>
 <li class=""><strong>IC Track</strong>: Engineer → Senior Engineer → Staff Engineer → Principal Engineer</li>
@@ -409,7 +409,7 @@
 <li class=""><strong>Hybrid Tracks</strong>: Possible in some organizations</li>
 </ul>
 <p>Clear frameworks reduce ambiguity.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="4-technical-strategy">4. Technical Strategy<a href="https://surajsrivastav.com/blog/engineering-leadership-at-scale#4-technical-strategy" class="hash-link" aria-label="Direct link to 4. Technical Strategy" title="Direct link to 4. Technical Strategy" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="4-technical-strategy">4. Technical Strategy<a href="https://surajsrivastav.github.io/suraj-site/blog/engineering-leadership-at-scale/#4-technical-strategy" class="hash-link" aria-label="Direct link to 4. Technical Strategy" title="Direct link to 4. Technical Strategy" translate="no">​</a></h3>
 <p>Document your technical strategy:</p>
 <ul>
 <li class="">What technologies do we use and why?</li>
@@ -418,7 +418,7 @@
 <li class="">What's our upgrade/deprecation policy?</li>
 </ul>
 <p>This prevents 50 different approaches across 50 engineers.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-leaders-role-at-scale">The Leader's Role at Scale<a href="https://surajsrivastav.com/blog/engineering-leadership-at-scale#the-leaders-role-at-scale" class="hash-link" aria-label="Direct link to The Leader's Role at Scale" title="Direct link to The Leader's Role at Scale" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-leaders-role-at-scale">The Leader's Role at Scale<a href="https://surajsrivastav.github.io/suraj-site/blog/engineering-leadership-at-scale/#the-leaders-role-at-scale" class="hash-link" aria-label="Direct link to The Leader's Role at Scale" title="Direct link to The Leader's Role at Scale" translate="no">​</a></h2>
 <p>Your job changes from "build great stuff" to:</p>
 <ol>
 <li class=""><strong>Set direction</strong>: Where are we going?</li>
@@ -427,7 +427,7 @@
 <li class=""><strong>Build culture</strong>: Set values and reinforce them</li>
 <li class=""><strong>Make hard calls</strong>: Say no. Prioritize ruthlessly.</li>
 </ol>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="conclusion">Conclusion<a href="https://surajsrivastav.com/blog/engineering-leadership-at-scale#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="conclusion">Conclusion<a href="https://surajsrivastav.github.io/suraj-site/blog/engineering-leadership-at-scale/#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion" translate="no">​</a></h2>
 <p>Scaling is hard. The skills that made you successful at small scale often work against you at large scale.</p>
 <p>Invest in:</p>
 <ul>

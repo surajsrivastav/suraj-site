@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksuraj_site=self.webpackChunksuraj_site||[]).push([[903],{1912(s){s.exports=JSON.parse('{"blogBasePath":"/suraj-site/blog","blogTitle":"Blog","authorsListPath":"/suraj-site/blog/authors"}')}}]);
