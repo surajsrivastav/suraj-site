@@ -111,8 +111,8 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/surajsrivastav',
+                label: 'X (Twitter)',
+                href: 'https://x.com/surajsrivastav',
               },
               {
                 label: 'GitHub',
