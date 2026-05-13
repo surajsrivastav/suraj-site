@@ -135,7 +135,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Built with systems thinking. Writing in public. © ${new Date().getFullYear()} Suraj Srivastav`,
+        copyright: `Distributed systems engineering and technical leadership. © ${new Date().getFullYear()} Suraj Srivastav`,
       },
       prism: {
         theme: themes.oneDark,

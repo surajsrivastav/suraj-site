@@ -11,12 +11,12 @@ function Hero() {
       <div className={styles.heroContent}>
         <h1 className={styles.heroTitle}>Suraj Srivastav</h1>
         <p className={styles.heroSubtitle}>
-          Engineering leader building scalable systems and AI platforms
+          Staff Software Engineer | Distributed Systems | Technical Leadership
         </p>
         <p className={styles.heroDescription}>
-          I focus on distributed systems, backend architecture, applied AI, and
-          scaling engineering organizations. Currently exploring AI agent systems
-          and platform engineering at scale.
+          15+ years building and modernizing large-scale distributed systems at Ford.
+          Technical authority on cloud-native platforms (AWS, GCP) processing 2M+ monthly transactions.
+          Focused on distributed systems, platform engineering, SRE practices, and AI-augmented developer productivity.
         </p>
         <div className={styles.heroCTA}>
           <Link to="/blog" className={`${styles.button} ${styles.buttonPrimary}`}>
@@ -35,27 +35,27 @@ function FocusAreas() {
   const areas = [
     {
       icon: '🏗️',
-      title: 'System Design',
+      title: 'Distributed Systems',
       description:
-        'Distributed systems, APIs, scalability patterns, and architecture decisions for high-traffic systems.',
-    },
-    {
-      icon: '🤖',
-      title: 'Applied AI',
-      description:
-        'AI agents, workflow automation, and production AI systems that solve real problems.',
+        'Large-scale cloud-native platforms (AWS, GCP), microservices, event-driven architecture, and systems handling millions of transactions.',
     },
     {
       icon: '🛠️',
       title: 'Platform Engineering',
       description:
-        'Developer platforms, internal tools, and infrastructure that enables teams to move faster.',
+        'Building golden paths, standardized CI/CD pipelines, developer productivity, and infrastructure that scales to 190+ teams.',
     },
     {
-      icon: '👥',
-      title: 'Engineering Leadership',
+      icon: '🚀',
+      title: 'SRE & Observability',
       description:
-        'Scaling teams, architecture decisions at scale, and building strong engineering cultures.',
+        'DORA metrics, trunk-based development, distributed tracing, and designing for 2-hour MTTR at scale.',
+    },
+    {
+      icon: '🤖',
+      title: 'AI-Augmented Engineering',
+      description:
+        'Spec-Driven Development, GitHub Copilot integration, Model Context Protocol, and LLM-based developer workflows.',
     },
   ];
 
@@ -140,22 +140,22 @@ function WritingPreview() {
 function Projects() {
   const projects = [
     {
-      title: 'AI Audit Logging System',
+      title: 'Ford Experience Platform',
       description:
-        'Comprehensive audit logging for AI systems with structured logging, tracing, and compliance-ready output.',
-      tech: ['TypeScript', 'Node.js', 'Logging'],
+        'GCP-native platform serving 2M+ monthly transactions. Architected cloud-native migration from legacy COTS to microservices and event-driven architecture. Increased customer retention to 36% (100%+ above industry benchmarks).',
+      tech: ['GCP', 'Microservices', 'Event-Driven'],
     },
     {
-      title: 'Backend Architecture Templates',
+      title: 'Ford Pro Gateway',
       description:
-        'Production-ready backend architecture patterns with Node.js, TypeScript, and Firestore.',
-      tech: ['Node.js', 'TypeScript', 'Firestore'],
+        'Micro-frontend platform enabling 190+ product teams with unified design system and consistent experiences. Simplified authentication across B2C, B2B, and internal systems.',
+      tech: ['React', 'Micro-Frontends', 'Architecture'],
     },
     {
-      title: 'Platform Engineering Experiments',
+      title: 'Order-to-Delivery Transformation',
       description:
-        'Exploring developer experience improvements and platform automation patterns.',
-      tech: ['Go', 'Kubernetes', 'DevOps'],
+        'Reduced order-to-delivery cycle time by 76% (60 to 14 days). Re-architected monolithic systems into Java/Spring Boot microservices. Launched 5 vehicle lines.',
+      tech: ['Java/Spring', 'Microservices', 'Kafka'],
     },
   ];
 
@@ -190,10 +190,12 @@ function Now() {
       <SectionHeader title="Now" description="What I'm focused on right now" />
       <div className={styles.nowContent}>
         <ul className={styles.nowList}>
-          <li>Exploring AI agent systems and agentic workflows</li>
-          <li>Designing scalable backend architectures</li>
-          <li>Writing in public about systems, AI, and leadership</li>
-          <li>Building engineering cultures that scale</li>
+          <li>Technical authority on GCP-native platforms and cloud architecture</li>
+          <li>Spec-Driven Development and GitHub Copilot integration at scale</li>
+          <li>Building golden paths and standardized CI/CD pipelines for 190+ teams</li>
+          <li>SRE practices: trunk-based development, DORA metrics, distributed tracing</li>
+          <li>AI-augmented developer productivity with Model Context Protocol</li>
+          <li>Published thought leadership on distributed systems and engineering practices</li>
         </ul>
       </div>
     </section>
@@ -204,13 +206,19 @@ function CTA() {
   return (
     <section className={styles.ctaSection}>
       <div className={styles.ctaContent}>
-        <h2>Let's work together</h2>
+        <h2>Get in touch</h2>
         <p>
-          Interested in discussing systems, AI, or engineering challenges? I'd love to connect.
+          Interested in discussing distributed systems, platform engineering,
+          or technical strategy? Let's connect.
         </p>
-        <a href="mailto:suraj.ssrivastav@gmail.com" className={`${styles.button} ${styles.buttonPrimary}`}>
-          Get in touch
-        </a>
+        <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
+          <a href="mailto:suraj.ssrivastav@gmail.com" className={`${styles.button} ${styles.buttonPrimary}`}>
+            Email
+          </a>
+          <a href="https://linkedin.com/in/surajsrivastav" className={`${styles.button} ${styles.buttonSecondary}`}>
+            LinkedIn
+          </a>
+        </div>
       </div>
     </section>
   );
